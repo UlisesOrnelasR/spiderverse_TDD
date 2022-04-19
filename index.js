@@ -1,0 +1,1 @@
+let spiderman = require('./app/superHero')

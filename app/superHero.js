@@ -1,9 +1,12 @@
 class superHero {
-    constructor(name,actor,age,comic){
+    constructor(name,actor,age,studio){
         this.name = name,
         this.actor = actor,
         this.age = age,
-        this.comic = comic
+        this.studio = studio
+    }
+    getInfo(){
+        return `Hola soy ${this.actor} y soy de los studios "${this.studio}"`
     }
 }
 
